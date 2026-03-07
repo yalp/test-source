@@ -7,6 +7,6 @@ on:
 
 jobs:
   build:
-    uses: yalp/test-shared-workflow@main
+    uses: yalp/test-shared-workflow/.github/workflows/shared.yml@main
     with:
       version: "1.0.0"
