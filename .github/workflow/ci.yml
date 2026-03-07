@@ -1,0 +1,12 @@
+name: CI - Build & Push
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    uses: yalp/test-shared-workflow@main
+    with:
+      version: "1.0.0"
