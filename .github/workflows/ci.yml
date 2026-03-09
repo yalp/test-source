@@ -10,3 +10,4 @@ jobs:
     uses: yalp/test-shared-workflow/.github/workflows/shared.yml@main
     with:
       version: "1.0.0"
+    secrets: inherit
